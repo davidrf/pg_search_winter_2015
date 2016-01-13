@@ -45,6 +45,7 @@ end
 
 
 gem 'foundation-rails'
+gem 'pg_search'
 group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'

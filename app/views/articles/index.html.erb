@@ -1,5 +1,11 @@
 <h1>Articles for daysss</h1>
 
+<%= form_tag articles_path, method: :get do %>
+  <%= label_tag :query, "Keywords" %>
+  <%= text_field_tag :query %>
+  <%= submit_tag "Search" %>
+<% end %>
+
 <ul>
   <%= render @articles %>
 </ul>
